@@ -1,0 +1,22 @@
+官网：www.tensorflow.org
+
+-------------------
+主要运行对象：
+# Minimize the mean squared errors.
+loss = tf.reduce_mean(tf.square(y - y_data))
+optimizer = tf.train.GradientDescentOptimizer(0.1)
+train = optimizer.minimize(loss)
+
+# Before starting, initialize the variables.  We will 'run' this first.
+init = tf.initialize_all_variables()
+
+# Launch the graph.
+sess = tf.Session()
+sess.run(init)
+
+# Fit the line.
+for step in range(1001):
+    sess.run(train)
+
+-------------------
+
