@@ -4,3 +4,6 @@ PyCharm
 #Git
 PyCharm集成
 单独工具如GitHub Desktop/Source Tree都只有windows版和Mac版，没有Linux 版。
+
+#tensorboard
+Ubuntu目录: /usr/local/lib/python2.7/dist-packages/tensorflow/tensorboard
