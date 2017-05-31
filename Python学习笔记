@@ -8,5 +8,5 @@ PyCharm集成
 #tensorboard
 Ubuntu目录: /usr/local/lib/python2.7/dist-packages/tensorflow/tensorboard
 
-#Numpy
+#NumPy
 http://www.numpy.org/
